@@ -49,10 +49,10 @@ class playGame extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('sky', '../assets/images/sky.png');
-    this.load.image('platform', '../assets/images/platform.png');
-    this.load.spritesheet('player_run', '../assets/images/Pink_Monster_Run_6.png', { frameWidth: 32, frameHeight: 32 });
-    this.load.spritesheet('player_jump', '../assets/images/Pink_Monster_Jump_8.png', { frameWidth: 32, frameHeight: 32 });
+    this.load.image('sky', './assets/images/sky.png');
+    this.load.image('platform', './assets/images/platform.png');
+    this.load.spritesheet('player_run', './assets/images/Pink_Monster_Run_6.png', { frameWidth: 32, frameHeight: 32 });
+    this.load.spritesheet('player_jump', './assets/images/Pink_Monster_Jump_8.png', { frameWidth: 32, frameHeight: 32 });
   }
 
   create() {
