@@ -3,6 +3,8 @@
 /lol
 /upload/*
 /build/*
+/dist/*
+
 
 .DS_Store
 .env.local
